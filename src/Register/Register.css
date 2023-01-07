@@ -61,3 +61,25 @@
     border: #fad249;
     border-radius: 60%;
 }
+@media screen and (max-width:780px) {
+    .register-wrapper{
+        background-color: gainsboro;
+        border: none;
+        height: 60%;
+        width: 60%;
+    }
+    .register-circle{
+        display: none;
+    }
+    .register-label{
+        color: #ef673c;
+        font-weight: larger;
+        font-size: larger;
+
+    }
+    .register-h1{
+        margin-top: 30px;
+        font-weight: normal;
+        color: black;
+    }
+  }
