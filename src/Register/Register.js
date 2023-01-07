@@ -17,7 +17,7 @@ function Register() {
         }else if(password !==confirmPassword){
           alert("Password and Confirm Password are not Same")
         }else{
-          fetch("http://localhost:8000/users/register", {
+          fetch("https://todobackend-4rl5.onrender.com/users/register", {
           method: "POST",
           crossDomain: true,
           headers: {
@@ -55,7 +55,7 @@ function Register() {
           <input placeholder='Username' className='register-input' type='email' value={email} onChange={(e) => setEmail(e.target.value)}></input>
           <input placeholder='Password' className='register-input' type='password' value={password} onChange={(e) => setPassword(e.target.value)}></input>
           <input placeholder='Confirm Password' className='register-input'type='password' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}></input>
-          <button className='register-button'>REGISTER</button>
+          <button className='register-button' type='submit'>REGISTER</button>
           <label className='register-label'onClick={()=>navigate("/")}>Member Login</label>
           </form>
         </div>
