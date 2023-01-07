@@ -37,7 +37,7 @@ function Register() {
                   navigate("/");
                 }
                 if(data.status === "Failed" && data.message ==="User already exists"){
-                  alert("Please Sign Up First")
+                  alert("User already exists please login")
                 }
                 else if(data.status === "Failed") {
                  alert(`${data.message}`)
