@@ -1,0 +1,97 @@
+.dashboard-container{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+    overflow: hidden;
+}
+.dashboard-header{
+    border: 5px solid #b5e643;
+    height: 20%;
+    width: 99.1%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.dashboard-username{
+  margin-right: 3%;
+}
+.dashboard-bottom{
+    height: 79%;
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+.dashboard-bottom .dashboard-aside{
+    background-color: #b5e643;
+    width: 20%;
+    height: 100%;
+    border :none;
+}
+.dashboard-bottom .dashboard-main{
+    background-color: white;
+    border: none;
+    width: 80%;
+    height: 99%;
+}
+.dashboard-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: larger;
+}
+ 
+.dashboard-aside :first-child{
+    color: #3ba2e6;
+    margin-top: 15%;
+}
+
+.dashboard-aside :last-child{
+  margin-top: 20em; 
+  cursor: pointer; 
+  font-weight: bold;
+}
+.dashboard-main .dashboard-button{
+    border: 4px solid #a349a4;
+    background-color: white;
+    color: #a349a4;
+    font-size: larger;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5% ;
+}
+
+.dashboard-table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10%;
+}
+.dashboard-table thead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3c78d8;
+}
+thead tr{
+    background-color: #3c78d8;
+    padding: 10px;
+    color: white;
+}
+.dashboard-table tbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white
+}
+.tbody-tr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 7px;
+    text-align: left;
+}
+.tbody-tr tr:first-child {
+    margin-left: -80px;
+}
